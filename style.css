@@ -125,4 +125,23 @@ body {
     .card{
         margin: 40% auto 0;
     }
+    .search input{
+        padding: 10px 5px;
+    }
+    .details{
+        gap:100px;
+        justify-content: space-evenly;
+        padding-right: 70px;
+    }
+    .col{
+        width: 50px;
+        
+    }
+
+}
+
+@media screen and (width <= 380px){
+    .card{
+        margin-top: 30px;
+    }
 }
